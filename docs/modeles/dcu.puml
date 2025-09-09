@@ -8,5 +8,7 @@ actor Joueur as J
 rectangle "Système" {
   (Jouer aux dés) as JP #powderblue
   J -- JP
+  (Redémarrer) as R #powderblue
+  J -- R
 }
 @enduml
